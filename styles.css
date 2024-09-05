@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuração básica do corpo */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    background-color: #00b7ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* Principal */
+main {
+    flex: 1;
+}
+
+/* Seções principais */
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00b7ff;
+    color: white;
+    margin-top: auto; /* Garante que o footer fique na parte inferior */
+}
+/* Estilo para a página de Consequências */
+#consequencias p {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Aumenta o espaçamento entre*/
+    margin-bottom: 20px; /* Adiciona espaço abaixo dos parágrafos */
+}
+
+#consequencias strong {
+    font-size: 1.3em; /* Aumenta o tamanho da fonte dos títulos dentro dos parágrafos */
+}
+
+/* Estilo para a página Sobre */
+#sobre p.citacao {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte da citação */
+    font-style: italic; /* Adiciona itálico para destaque */
+    margin-top: 20px; /* Adiciona espaço acima da citação */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da citação */
+    padding: 10px; /* Adiciona um pouco de padding */
+    border-left: 4px solid #ffa500; /* Adiciona uma borda à esquerda para destaque */
+    background-color: #f9f9f9; /* Adiciona um fundo leve para a citação */
+}
+
+/* Estilos para a página de Perfil */
+#perfil {
+    margin: 20px;
+}
+
+.perfil-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ddd;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#perfil h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.info p strong {
+    font-weight: bold;
+}
+
